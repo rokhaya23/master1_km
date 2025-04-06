@@ -4,4 +4,9 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>web.UserServlet</servlet-class>
+  </servlet>
 </web-app>
