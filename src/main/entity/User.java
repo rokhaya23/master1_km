@@ -25,6 +25,10 @@ public class User {
 
     private int age;
 
+    @ManyToOne
+    @JoinColumn(name = "role_id")
+    private Role role;
+
     public User() {
     }
 }

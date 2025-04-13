@@ -21,12 +21,12 @@
     <input type="number" class="form-control" name="age">
     <br>
 
-<%--    <label>Roles </label>--%>
-<%--    <select name="role" class="form-control">--%>
-<%--        <c:forEach items="${roles}" var="role" >--%>
-<%--        <option value="${role.id}"> ${role.name}  </option>--%>
-<%--        </c:forEach>--%>
-<%--        <select>--%>
+    <label>Roles </label>
+    <select name="role" class="form-control">
+        <c:forEach items="${roles}" var="role" >
+        <option value="${role.id}"> ${role.name}  </option>
+        </c:forEach>
+        <select>
 
 
     <button class="btn btn-info" name="save" type="submit">Save</button>

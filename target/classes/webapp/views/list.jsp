@@ -16,6 +16,7 @@
             <td>NOM</td>
             <td>PRENOM</td>
             <td>AGE</td>
+            <td>ROLE</td>
             <td>ACTIONS</td>
         </tr>
         <c:forEach items="${listUser}" var="user">
@@ -23,6 +24,7 @@
                 <td>${user.nom}</td>
                 <td>${user.prenom}</td>
                 <td>${user.age}</td>
+                <td>${user.role.name}</td>
                 <td>
                     <a class="btn btn-primary" href="user?action=edit&&id=${user.id}">Modifier</a>
                     <a class="btn btn-danger" href="user?action=delete&&id=${user.id}">Supprimer</a>
